@@ -11,9 +11,7 @@ namespace ExampleMod.Items.ExampleDamageClass
             return player.GetModPlayer<AnimosityPlayer>();
         }
 
-        // Vanilla only really has damage multipliers in code
-        // And crit and knockback is usually just added to
-        // As a modder, you could make separate variables for multipliers and simple addition bonuses
+        
         public float AnimosityDamageAdd;
   
 
